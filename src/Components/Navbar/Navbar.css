@@ -42,3 +42,58 @@
   padding: 10px;
   border-radius: 50%;
 }
+.mobile-btn {
+  display: none;
+}
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .menu-icon {
+    display: block;
+    z-index: 1001;
+  }
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    background: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 100px;
+    padding-left: 30px;
+    gap: 20px;
+    transition: 0.4s ease;
+    z-index: 1000;
+  }
+  .navbar-btns {
+    display: none;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .btn-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .nav-links.active {
+    right: 0;
+  }
+}

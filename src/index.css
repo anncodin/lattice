@@ -8,7 +8,7 @@
 }
 body {
   background: var(--body-bg);
-  margin: 20px 30px;
+  margin: 20px 40px;
 }
 :root {
   --body-bg: #eff3f6;
@@ -42,5 +42,6 @@ a:active {
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 64px;
+  padding: 0 80px;
 }
+
