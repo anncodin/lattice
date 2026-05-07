@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josephin Sans", sans-serif;
+}
+body {
+  background: var(--body-bg);
+}
+:root {
+  --body-bg: #eff3f6;
+  --main-color: #101010;
+  --secondary-color: #e53a1e;
+  --h1-font: 57px;
+  --title-font: 32px;
+  --title-lh: 64px;
+  --subtitle-font: 16px;
+  --subtitle-lh: 24px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  color: var(--secondary-color);
+}
