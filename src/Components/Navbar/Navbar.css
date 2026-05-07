@@ -6,7 +6,39 @@
   background: var(--main-color);
   color: #fff;
   border-radius: 10px;
+  height: 70px;
 }
 .logo {
-  width: 120px;
+  width: 100px;
+}
+.navbar ul li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.btn-1 {
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  margin-right: 15px;
+}
+.btn-1 i {
+  color: var(--main-color);
+  margin-right: 10px;
+  background: var(--body-bg);
+  padding: 10px;
+  border-radius: 50%;
+}
+.btn-2 {
+  background: var(--body-bg);
+  color: var(--main-color);
+  font-weight: 400;
+  border-radius: 30px;
+}
+.btn-2 i {
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
 }

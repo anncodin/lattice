@@ -26,13 +26,15 @@ const Navbar = () => {
           <li>Contact</li>
         </NavLink>
       </ul>
-      <button className="btn btn-1">
-        <i class="ri-phone-fill"></i>
-        +89(0) 1256 2156
-      </button>
-      <button className="btn btn-2">
-        Get In Touch <i class="ri-arrow-right-up-line"></i>
-      </button>
+      <div className="navbar-btns">
+        <button className="btn btn-1">
+          <i class="ri-phone-fill"></i>
+          +89(0) 1256 2156
+        </button>
+        <button className="btn btn-2">
+          Get In Touch <i class="ri-arrow-right-up-line"></i>
+        </button>
+      </div>
     </div>
   );
 };
