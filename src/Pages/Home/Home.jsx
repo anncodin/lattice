@@ -46,28 +46,31 @@ const Home = () => {
           <div className="gallery-3">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              deleniti doloremque vel eius ipsum.
+              deleniti.
             </p>
             <div className="residence">
               <div className="res-1">
                 <i class="ri-compasses-2-fill"></i>
                 <p>Commercial</p>
               </div>
-              <div className="res-1">
-                <i class="ri-compasses-2-fill"></i>
+              <div className="res-2">
+                <i class="ri-pencil-ruler-2-line"></i>
                 <p>Industrial</p>
               </div>
             </div>
             <div className="residence">
-              <div className="res-1">
-                <i class="ri-compasses-2-fill"></i>
-                <p>Commercial</p>
+              <div className="res-3">
+                <i class="ri-home-7-line"></i>
+                <p>Residential</p>
               </div>
-              <div className="res-1">
-                <i class="ri-compasses-2-fill"></i>
-                <p>Commercial</p>
+              <div className="res-4">
+                <i class="ri-building-fill"></i>
+                <p>Corporate</p>
               </div>
             </div>
+            <button className="btn res3-btn">
+              Know About Us <i class="ri-arrow-right-up-line"></i>
+            </button>
           </div>
         </div>
       </div>

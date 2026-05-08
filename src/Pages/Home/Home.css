@@ -164,19 +164,48 @@
   display: flex;
   align-items: center;
   margin: 30px auto;
-  gap: 40px;
+  gap: 35px;
 }
 .residence p {
   font-size: 18px;
   line-height: 22px;
+  font-weight: 500;
 }
-.residence i {
+.res-1 i {
   color: var(--secondary-color);
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 18px;
+  line-height: 22px;
 }
 .res-1 {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  color: var(--secondary-color);
+}
+.res-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.res-3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.res-4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.res3-btn {
+  background: var(--body-bg);
+  color: var(--main-color);
+  font-weight: 400;
+  border-radius: 30px;
+  border: 1.3px solid var(--main-color);
+}
+.res3-btn i {
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 50%;
 }
