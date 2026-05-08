@@ -55,3 +55,22 @@
   margin-bottom: 25px;
   font-weight: 400;
 }
+.next-btn,
+.back-btn {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  width: 25px;
+  padding: 30px 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  background: var(--body-bg);
+}
+.back-btn {
+  left: 40px;
+}
+.next-btn {
+  right: 40px;
+}
