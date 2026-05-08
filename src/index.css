@@ -14,11 +14,6 @@ body {
   --body-bg: #eff3f6;
   --main-color: #101010;
   --secondary-color: #e53a1e;
-  --h1-font: 57px;
-  --title-font: 32px;
-  --title-lh: 64px;
-  --subtitle-font: 14px;
-  --subtitle-lh: 24px;
 }
 a {
   text-decoration: none;
@@ -29,7 +24,7 @@ a:active {
 }
 .btn {
   padding: 10px 4px 8px 15px;
-  font-size: var(--subtitle-font);
+  font-size: 14px;
   font-weight: 300;
   line-height: 20px;
   border-radius: 5px;
@@ -44,4 +39,3 @@ a:active {
   margin: 0 auto;
   padding: 0 80px;
 }
-
