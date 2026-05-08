@@ -1,15 +1,11 @@
 import React, { useRef } from "react";
 import "./Home.css";
-import back_icon from "../../assets/back-icon.png";
-import next_icon from "../../assets/next-icon.png";
 import image from "../../assets/naksha-banwao-3ddHcjHmiGw-unsplash.jpg";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="hero container">
-        <img src={back_icon} alt="" className="back-btn" />
-        <img src={next_icon} alt="" className="next-btn" />
         <div className="hero-text">
           <p>potential of design</p>
           <h1>Designing the Art of living</h1>

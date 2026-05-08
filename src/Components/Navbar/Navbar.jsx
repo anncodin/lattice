@@ -26,21 +26,25 @@ const Navbar = () => {
         <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
           <li>Contact</li>
         </NavLink>
-        <li>
-          {" "}
-          <button className="btn btn-2 mobile-btn">
-            Get In Touch <i class="ri-arrow-right-up-line"></i>
-          </button>
-        </li>
+        <Link to="/contact">
+          <li>
+            {" "}
+            <button className="btn btn-2 mobile-btn">
+              Get In Touch <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </li>
+        </Link>
       </ul>
       <div className="navbar-btns">
         <button className="btn btn-1">
           <i class="ri-phone-fill"></i>
           +89(0) 1256 2156
         </button>
-        <button className="btn btn-2">
-          Get In Touch <i class="ri-arrow-right-up-line"></i>
-        </button>
+        <Link to="/contact">
+          <button className="btn btn-2">
+            Get In Touch <i class="ri-arrow-right-up-line"></i>
+          </button>
+        </Link>
       </div>
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? (
