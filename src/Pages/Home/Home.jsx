@@ -165,6 +165,33 @@ const Home = () => {
           </div>
         </div>
         <hr />
+        <div className="contact-form">
+          <form action="">
+            <input type="text" name="name" placeholder="Name*" required />
+            <input type="text" name="email" placeholder="Email ID*" required />
+            <input
+              type="text"
+              name="address"
+              placeholder="Office Address*"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Select Your Work Type*"
+              required
+            />
+            <input
+              type="text"
+              name="date"
+              placeholder="Select Date*"
+              required
+            />
+            <button type="submit" className="btn form-btn">
+              Get Estimate Quote
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );

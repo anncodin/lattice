@@ -357,6 +357,32 @@
   padding-top: 6px;
   font-size: 12px;
 }
+.contact-form {
+  padding-top: 50px;
+}
+.contact-form input {
+  background: transparent;
+  outline: none;
+  border: 1px solid var(--body-bg);
+  border-radius: 30px;
+  width: 30%;
+  padding: 15px 25px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.form-btn {
+  background: var(--secondary-color);
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  width: 30%;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.contact-form ::placeholder {
+  color: #fff;
+  font-weight: 200;
+}
 
 @media (max-width: 390px) {
   .hero-text p {
