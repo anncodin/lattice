@@ -70,6 +70,65 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="section-two container">
+        <div className="section-two-title">
+          <p>our service</p>
+          <h2>What we offer for you</h2>
+        </div>
+        <div className="card-container">
+          <div className="card">
+            <div className="card-item">
+              <i class="ri-home-9-fill"></i>
+              <h3>Sustainable building</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="card red">
+            <div className="card-item">
+              <i class="ri-compasses-2-fill"></i>
+              <h3>Renovation & Remodeling</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="card">
+            <div className="card-item">
+              <i class="ri-lightbulb-ai-fill"></i>
+              <h3>Custom Construction</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card">
+            <div className="card-item">
+              <i class="ri-home-5-line"></i>
+              <h3>Project Management</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="card">
+            <div className="card-item">
+              <i class="ri-hotel-fill"></i>
+              <h3>Renovation & Remodeling</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="card">
+            <div className="card-item">
+              <i class="ri-ruler-2-line"></i>
+              <h3>Custom Construction</h3>
+            </div>
+            <hr />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
