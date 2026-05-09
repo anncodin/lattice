@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Home.css";
 import image from "../../assets/naksha-banwao-3ddHcjHmiGw-unsplash.jpg";
+import white_logo from "../../assets/white-logo.png";
 
 const Home = () => {
   return (
@@ -128,6 +129,42 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
+      </div>
+
+      <div className="section-three container">
+        <div className="free-estimate">
+          <div className="free-container">
+            <div className="free-left">
+              <img src={white_logo} alt="" />
+              <div className="left-text">
+                <p>free estimate</p>
+                <h3>request a quote</h3>
+              </div>
+            </div>
+            <div className="free-middle"></div>
+            <div className="free-right">
+              <div className="services-list">
+                <div className="card1">
+                  <i class="ri-compasses-2-fill"></i>
+                  <p>Commercial</p>
+                </div>
+                <div className="card2">
+                  <i class="ri-pencil-ruler-2-line"></i>
+                  <p>Industrial</p>
+                </div>
+                <div className="card1">
+                  <i class="ri-home-7-line"></i>
+                  <p>Residential</p>
+                </div>
+                <div className="card1">
+                  <i class="ri-building-fill"></i>
+                  <p>Corporate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
       </div>
     </div>
   );

@@ -263,6 +263,100 @@
 .red p {
   color: #fff;
 }
+.section-three {
+  margin: 60px auto;
+  width: 100%;
+  min-height: 80vh;
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../assets/naksha-banwao-3ddHcjHmiGw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.free-estimate {
+  padding-bottom: 50px;
+}
+.free-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.free-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.free-left img {
+  width: 70px;
+}
+.left-text {
+  color: #fff;
+}
+.left-text p {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  border: 1px solid var(--body-bg);
+  padding: 8px 5px 3px 25px;
+  border-radius: 30px;
+  width: 50%;
+}
+.left-text h3 {
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.free-middle {
+  height: 70px;
+  border-left: 2px solid var(--body-bg);
+}
+.free-right {
+  flex: 1;
+}
+.services-list {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.card1 {
+  text-align: center;
+  background: var(--body-bg);
+  padding: 15px;
+  border-radius: 15px;
+}
+.card1 i {
+  font-size: 32px;
+  line-height: 40px;
+}
+.card1 p {
+  padding-top: 6px;
+  font-size: 12px;
+}
+.card2 {
+  text-align: center;
+  background: var(--secondary-color);
+  padding: 15px 22px;
+  border-radius: 15px;
+  color: #fff;
+}
+.card2 i {
+  font-size: 32px;
+  line-height: 40px;
+}
+.card2 p {
+  padding-top: 6px;
+  font-size: 12px;
+}
 
 @media (max-width: 390px) {
   .hero-text p {
@@ -376,5 +470,68 @@
   }
   .card {
     padding: 20px;
+  }
+  .card-item {
+    padding-bottom: 0px;
+  }
+  .free-estimate {
+    padding-bottom: 50px;
+  }
+  .free-container {
+    flex-direction: column;
+  }
+  .free-left {
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .free-left img {
+    width: 50px;
+  }
+  .left-text h3 {
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 5px;
+  }
+  .free-middle {
+    display: none;
+  }
+  .free-right {
+    flex: 1;
+  }
+  .left-text p {
+    width: 60%;
+  }
+  .services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card1 {
+    text-align: center;
+    background: var(--body-bg);
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .card1 i {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .card1 p {
+    padding-top: 6px;
+    font-size: 12px;
+  }
+  .card2 {
+    text-align: center;
+    background: var(--secondary-color);
+    padding: 15px 22px;
+    border-radius: 15px;
+    color: #fff;
+  }
+  .card2 i {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .card2 p {
+    padding-top: 6px;
+    font-size: 12px;
   }
 }
