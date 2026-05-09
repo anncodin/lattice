@@ -369,6 +369,7 @@
   padding: 15px 25px;
   margin-right: 30px;
   margin-bottom: 30px;
+  color: #fff;
 }
 .form-btn {
   background: var(--secondary-color);
@@ -559,5 +560,11 @@
   .card2 p {
     padding-top: 6px;
     font-size: 12px;
+  }
+  .contact-form input {
+    width: 100%;
+  }
+  .form-btn {
+    width: 100%;
   }
 }
