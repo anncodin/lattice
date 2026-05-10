@@ -384,6 +384,81 @@
   color: #fff;
   font-weight: 200;
 }
+.section-four {
+  margin: 60px auto;
+}
+.section-title {
+  text-align: center;
+  margin: 0 auto;
+}
+.section-title p {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin: 0 auto;
+  border: 1px solid var(--secondary-color);
+  padding: 8px 5px 3px 5px;
+  border-radius: 30px;
+  width: 15%;
+}
+.section-title h2 {
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: capitalize;
+  padding: 30px 0;
+}
+.progress-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 15px;
+}
+.progress {
+  border: 1px solid var(--main-color);
+  padding: 8px 20px 5px 22px;
+  border-radius: 30px;
+}
+.progress1 {
+  background: var(--secondary-color);
+  padding: 8px 20px 4px 20px;
+  border-radius: 30px;
+  color: #fff;
+}
+.section4-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.designs {
+  padding-bottom: 30px;
+}
+.designs p {
+  font-weight: 700;
+}
+.designs img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.location i {
+  color: var(--secondary-color);
+}
+.location p {
+  padding: 15px 0;
+  font-weight: 400;
+}
+.section-four button {
+  display: block;
+  margin: 10px auto;
+}
 
 @media (max-width: 390px) {
   .hero-text p {
@@ -443,6 +518,7 @@
     width: 100%;
     max-width: 40%;
     margin: 15px auto;
+    padding: 6px 0px 2px 0px;
   }
   .section-heading h2 {
     text-align: center;
@@ -484,13 +560,11 @@
     gap: 100px;
   }
   .section-two-title p {
-    width: 60%;
+    width: 40%;
+    padding: 6px 0px 2px 0px;
   }
   .section-two {
     padding: 80px 24px;
-  }
-  .section-two-title p {
-    width: 60%;
   }
   .card-container {
     flex-direction: column;
@@ -499,7 +573,7 @@
     padding: 20px;
   }
   .card-item {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
   }
   .free-estimate {
     padding-bottom: 50px;
@@ -566,5 +640,45 @@
   }
   .form-btn {
     width: 100%;
+  }
+  .section-title p {
+    padding: 8px 5px 2px 5px;
+    width: 40%;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: capitalize;
+    padding: 30px 0;
+  }
+  .progress-status {
+    flex-direction: column;
+  }
+  .section4-gallery {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .designs {
+    padding-bottom: 30px;
+  }
+  .designs p {
+    font-weight: 700;
+  }
+  .designs img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .location i {
+    color: var(--secondary-color);
+  }
+  .location p {
+    padding: 15px 0;
+    font-weight: 400;
   }
 }

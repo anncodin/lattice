@@ -2,6 +2,10 @@ import React, { useRef } from "react";
 import "./Home.css";
 import image from "../../assets/naksha-banwao-3ddHcjHmiGw-unsplash.jpg";
 import white_logo from "../../assets/white-logo.png";
+import pic_1 from "../../assets/avi-waxman-f9qZuKoZYoY-unsplash.jpg";
+import pic_2 from "../../assets/avi-werde-hHz4yrvxwlA-unsplash.jpg";
+import pic_3 from "../../assets/brian-babb-XbwHrt87mQ0-unsplash.jpg";
+import pic_4 from "../../assets/sean-pollock-PhYq704ffdA-unsplash.jpg";
 
 const Home = () => {
   return (
@@ -192,6 +196,64 @@ const Home = () => {
             </button>
           </form>
         </div>
+      </div>
+
+      <div className="section-four container">
+        <div className="section-title">
+          <p>portfolio</p>
+          <h2>our recent work & portfolio</h2>
+        </div>
+        <div className="progress-status">
+          <div className="progress">
+            <p>All</p>
+          </div>
+          <div className="progress1">
+            <p>Completed Projects</p>
+          </div>
+          <div className="progress">
+            <p>Ongoing Projects</p>
+          </div>
+        </div>
+
+        <div className="section4-gallery">
+          <div className="designs">
+            <img src={pic_1} alt="" />
+            <div className="location">
+              <i class="ri-map-pin-2-line"></i>
+              <p>California, LA</p>
+            </div>
+            <p>Innovative Residential Design</p>
+          </div>
+          <div className="designs">
+            <img src={pic_2} alt="" />
+            <div className="location">
+              <i class="ri-map-pin-2-line"></i>
+              <p>California, LA</p>
+            </div>
+            <p>Urban Planning & Development</p>
+          </div>
+        </div>
+        <div className="section4-gallery">
+          <div className="designs">
+            <img src={pic_3} alt="" />
+            <div className="location">
+              <i class="ri-map-pin-2-line"></i>
+              <p>California, LA</p>
+            </div>
+            <p>Landscape Architecture</p>
+          </div>
+          <div className="designs">
+            <img src={pic_4} alt="" />
+            <div className="location">
+              <i class="ri-map-pin-2-line"></i>
+              <p>California, LA</p>
+            </div>
+            <p>Restoration & Renovation</p>
+          </div>
+        </div>
+        <button className="btn res3-btn">
+          View All Projects <i class="ri-arrow-right-up-line"></i>
+        </button>
       </div>
     </div>
   );
