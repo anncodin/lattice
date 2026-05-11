@@ -6,6 +6,11 @@ import pic_1 from "../../assets/avi-waxman-f9qZuKoZYoY-unsplash.jpg";
 import pic_2 from "../../assets/avi-werde-hHz4yrvxwlA-unsplash.jpg";
 import pic_3 from "../../assets/brian-babb-XbwHrt87mQ0-unsplash.jpg";
 import pic_4 from "../../assets/sean-pollock-PhYq704ffdA-unsplash.jpg";
+import magic from "../../assets/beforeandafter.jpg";
+import t1 from "../../assets/t1.png";
+import t2 from "../../assets/t2.png";
+import t3 from "../../assets/t3.png";
+import t4 from "../../assets/t4.png";
 
 const Home = () => {
   return (
@@ -222,7 +227,7 @@ const Home = () => {
               <i class="ri-map-pin-2-line"></i>
               <p>California, LA</p>
             </div>
-            <p>Innovative Residential Design</p>
+            <p>Urban Planning & Development</p>
           </div>
           <div className="designs">
             <img src={pic_2} alt="" />
@@ -230,7 +235,7 @@ const Home = () => {
               <i class="ri-map-pin-2-line"></i>
               <p>California, LA</p>
             </div>
-            <p>Urban Planning & Development</p>
+            <p>Innovative Residential Design</p>
           </div>
         </div>
         <div className="section4-gallery">
@@ -254,6 +259,45 @@ const Home = () => {
         <button className="btn res3-btn">
           View All Projects <i class="ri-arrow-right-up-line"></i>
         </button>
+
+        <div className="evaluation">
+          <div className="magic">
+            <div className="magic-text">
+              <p>before and after magic</p>
+              <h2>witness the design evolution</h2>
+            </div>
+            <img src={magic} alt="" className="before" />
+          </div>
+        </div>
+      </div>
+
+      <div className="section-five container">
+        <div className="team-text">
+          <p>expert team</p>
+          <h2>best & qualiy team</h2>
+        </div>
+        <div className="team-gallery">
+          <div className="team">
+            <img src={t1} alt="" />
+            <h2>Thomas Hendry</h2>
+            <p>Manager</p>
+          </div>
+          <div className="team">
+            <img src={t2} alt="" />
+            <h2>Deenia Ambrosia</h2>
+            <p>Manager</p>
+          </div>
+          <div className="team">
+            <img src={t3} alt="" />
+            <h2>Jones Hayford</h2>
+            <p>Manager</p>
+          </div>
+          <div className="team">
+            <img src={t4} alt="" />
+            <h2>Emily Jackson</h2>
+            <p>Manager</p>
+          </div>
+        </div>
       </div>
     </div>
   );
