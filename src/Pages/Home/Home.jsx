@@ -11,6 +11,10 @@ import t1 from "../../assets/t1.png";
 import t2 from "../../assets/t2.png";
 import t3 from "../../assets/t3.png";
 import t4 from "../../assets/t4.png";
+import m1 from "../../assets/m1.png";
+import m2 from "../../assets/m2.png";
+import m3 from "../../assets/m3.png";
+import m4 from "../../assets/m4.png";
 
 const Home = () => {
   return (
@@ -203,7 +207,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="section-four container">
+      <div className="section-four">
         <div className="section-title">
           <p>portfolio</p>
           <h2>our recent work & portfolio</h2>
@@ -274,7 +278,7 @@ const Home = () => {
       <div className="section-five container">
         <div className="team-text">
           <p>expert team</p>
-          <h2>best & qualiy team</h2>
+          <h2>best & quality team</h2>
         </div>
         <div className="team-gallery">
           <div className="team">
@@ -297,6 +301,69 @@ const Home = () => {
             <h2>Emily Jackson</h2>
             <p>Manager</p>
           </div>
+        </div>
+        <div className="cta">
+          <div className="cta-left">
+            <h2>Looking for a Quality Architect service?</h2>
+            <button className="btn cta-btn">
+              Contact Us <i class="ri-arrow-right-up-line"></i>
+            </button>
+          </div>
+          <div className="cta-right">
+            <div className="users">
+              <img src={m1} alt="" />
+              <img src={m2} alt="" />
+              <img src={m3} alt="" />
+              <img src={m4} alt="" />
+            </div>
+            <p>
+              Trusted By More than, 3000 Satisfied <span>Customers</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="faq-container">
+        <div className="faq-left">
+          <img src={image} alt="" />
+        </div>
+        <div className="faq-right">
+          <div className="faq-heading">
+            <p>our achievement</p>
+            <h2>frequently inquired questions</h2>
+          </div>
+          <div className="faqs">
+            <p>
+              01. Do you work with all industries?{" "}
+              <i class="ri-arrow-up-s-line"></i>
+            </p>
+          </div>
+          <div className="divider"></div>
+          <div className="faqs">
+            <p>
+              02. How long does the processtake?
+              <i class="ri-arrow-down-s-line"></i>
+            </p>
+            <p id="ans">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur voluptatibus quidem officiis a nobis quibusdam debitis
+              dolores dolorum nisi!
+            </p>
+          </div>
+          <div className="divider"></div>
+          <div className="faqs faq3">
+            <p>
+              03. Can I see post projects?
+              <i class="ri-arrow-up-s-line"></i>
+            </p>
+          </div>
+          <div className="divider"></div>
+          <div className="faqs faq4">
+            <p>
+              04. Do you provide ongoing support?
+              <i class="ri-arrow-up-s-line"></i>
+            </p>
+          </div>
+          <div className="divider"></div>
         </div>
       </div>
     </div>
