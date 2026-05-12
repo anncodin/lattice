@@ -64,13 +64,24 @@ const Footer = () => {
         </div>
         <div className="footer-col">
           <h2>Contact Us</h2>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Pricing Plan</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
+          <div className="contact">
+            <i class="ri-map-pin-fill"></i>
+            <p>250 Main Street, 2nd Floor. USA, 56004</p>
+          </div>
+          <div className="contact">
+            <i class="ri-mail-fill"></i>
+            <p>example@gmail.com</p>
+          </div>
+          <div className="contact">
+            <i class="ri-phone-fill"></i>
+            <p>+89(0) 1256 2156</p>
+          </div>
         </div>
+      </div>
+      <hr />
+      <div className="copyright">
+        <p>&copy; Designed by KingWoman Concepts | All Rights Reserved.</p>
+        <p>Terms and conditions / Privacy policy</p>
       </div>
     </div>
   );
