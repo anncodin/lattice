@@ -80,7 +80,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="copyright">
-        <p>&copy; Designed by KingWoman Concepts | All Rights Reserved.</p>
+        <p>&copy; Lattice | All Rights Reserved.</p>
         <p>Terms and conditions / Privacy policy</p>
       </div>
     </div>

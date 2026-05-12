@@ -109,3 +109,39 @@
   font-weight: 300;
   padding: 20px 0;
 }
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-top h2 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 400;
+    max-width: 400px;
+  }
+  .top-form input {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .footer-btn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .tcs {
+    margin: 20px auto;
+    gap: 10px;
+  }
+  .footer-col i {
+    margin-right: 15px;
+  }
+  .footer-down {
+    flex-direction: column;
+  }
+  .copyright {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}
